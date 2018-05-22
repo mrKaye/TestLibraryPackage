@@ -16,5 +16,10 @@ namespace TestLibraryPackage
             return $"This is what you wrote: {input} : {dependendtstring} ";
         }
 
+        public bool IsTrue()
+        {
+            return true;
+        }
+
     }
 }
