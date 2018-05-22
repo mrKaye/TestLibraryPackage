@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>C:\GitHubRepos\TestLibraryPackage\TestLibraryPackage\TestLibraryPackage\TestLibraryPackage.csproj</id>
+    <id>1</id>
     <version>1.0.0</version>
     <authors>morber</authors>
     <owners>morber</owners>
@@ -14,7 +14,7 @@
     <copyright>Copyright 2018</copyright>
     <tags>Tag1 Tag2</tags>
     <dependencies>
-      <dependency id="SampleDependency" version="1.0" />
+      <!--<dependency id="SampleDependency" version="1.0" />-->
     </dependencies>
   </metadata>
 </package>
