@@ -20,6 +20,6 @@
 
 </metadata>
 <files>
-      <file src="bin\Release\*.*" target="lib/net45" />
+      <file src="bin\Release\*.*" target="lib/net46" />
     </files>
 </package>
