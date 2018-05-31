@@ -21,5 +21,19 @@ namespace TestLibraryPackage
             return true;
         }
 
+        public string ReturnMyJsonObjeckt()
+        {
+            var obj = new TestObject() { ObjectDescription = "Fancy object", ObjectID = "1" };
+            var mysjon = Newtonsoft.Json.JsonConvert.SerializeObject(obj);
+            return mysjon;
+
+        }
+
+    }
+
+    public class TestObject
+    {
+        public string ObjectID { get; set; }
+        public string ObjectDescription { get; set; }
     }
 }
