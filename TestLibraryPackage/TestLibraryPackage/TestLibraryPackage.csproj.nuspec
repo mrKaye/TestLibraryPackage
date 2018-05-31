@@ -16,5 +16,9 @@
     <dependencies>
       <!--<dependency id="SampleDependency" version="1.0" />-->
     </dependencies>
-  </metadata>
+    <files>
+      <file src="bin\Release\*.*" target="lib/net45" />
+    </files>  
+
+</metadata>
 </package>
