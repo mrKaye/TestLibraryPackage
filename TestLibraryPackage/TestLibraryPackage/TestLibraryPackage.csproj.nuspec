@@ -22,5 +22,7 @@
   </metadata>
   <files>
     <file src="bin\Release\*.*" target="lib/net46" />
+    <file src="lib\Newtonsoft.Json.dll" target="lib/net46" />
+ 
   </files>
 </package>
