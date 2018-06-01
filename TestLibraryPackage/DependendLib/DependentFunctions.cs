@@ -10,7 +10,7 @@ namespace DependendLib
     {
         public static string ReturnDependentString()
         {
-            return "NotOK";
+            return "OK";
         }
     }
 }

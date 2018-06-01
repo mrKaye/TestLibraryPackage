@@ -5,14 +5,14 @@
     <version>1.0.1</version>
     <authors>morber</authors>
     <owners>morber</owners>
-    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
-    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
-    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <!--<licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>-->
+    <!--<projectUrl></projectUrl>-->
+    <!--<iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Test publish nuget package</description>
+    <description>Sample Nuget pakage</description>
     <releaseNotes>First release.</releaseNotes>
     <copyright>Copyright 2018</copyright>
-    <tags>Tag1 Tag2</tags>
+    <tags></tags>
     <dependencies>
       <!--<dependency id="SampleDependency" version="1.0" />-->
     <dependency id="Newtonsoft.Json" version="11.0.2" />
@@ -22,7 +22,7 @@
   </metadata>
   <files>
     <file src="bin\Release\*.*" target="lib/net46" />
-    <!--<file src="lib\Newtonsoft.Json.dll" target="lib/net46" />-->
+    <!--<file src="lib\Newtonsoft.Json.dll" target="lib/net46" /> This is not requried when targeting bin folder and output to lib-->
  
   </files>
 </package>

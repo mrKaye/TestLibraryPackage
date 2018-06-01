@@ -1,6 +1,7 @@
 ﻿using DependendLib;
 using System;
 using System.Collections.Generic;
+using System.Dynamic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,7 +10,7 @@ namespace TestLibraryPackage
 {
     public class MyFancyLibraryFunctions
     {
-        public string ConvertMYString(string input)
+        public string InputMyString(string input)
         {
             var dependendtstring = DependentFunctions.ReturnDependentString();
 
@@ -21,19 +22,17 @@ namespace TestLibraryPackage
             return true;
         }
 
-        public string ReturnMyJsonObjeckt()
+        public string ReturnMyJsonObject()
         {
-            var obj = new TestObject() { ObjectDescription = "Fancy object", ObjectID = "1" };
-            var mysjon = Newtonsoft.Json.JsonConvert.SerializeObject(obj);
+            dynamic testObject = new ExpandoObject();
+            testObject.User = "Test Testesen";
+            testObject.Description = "This is a test user";
+            testObject.LastLogon = DateTime.Now.AddHours(-1);
+            var mysjon = Newtonsoft.Json.JsonConvert.SerializeObject(testObject);
             return mysjon;
 
         }
 
     }
 
-    public class TestObject
-    {
-        public string ObjectID { get; set; }
-        public string ObjectDescription { get; set; }
-    }
 }
