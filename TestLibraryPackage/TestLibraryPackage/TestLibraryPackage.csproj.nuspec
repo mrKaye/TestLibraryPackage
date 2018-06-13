@@ -8,7 +8,7 @@
     <owners>morber</owners>
     <!--<licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>-->
     <!--<projectUrl></projectUrl>-->
-    <iconUrl>https://drive.google.com/open?id=1Is55EhspnLFFaCbWrIVtXp63ezyblptb</iconUrl>
+    <iconUrl>https://drive.google.com/open?id=1Is55EhspnLFFaCbWrIVtXp63ezyblptb</iconUrl> <!--Ikke implementert av MS å vise denne-->
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Sample Nuget pakage</description>
     <releaseNotes>Always test in production!</releaseNotes>
