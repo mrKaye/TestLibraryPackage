@@ -22,14 +22,14 @@ namespace TestLibraryPackage
             return true;
         }
 
-        public string ReturnMyJsonObject()
+        public string ReturnUser()
         {
             dynamic testObject = new ExpandoObject();
             testObject.User = "Test Testesen";
             testObject.Description = "This is a test user";
             testObject.LastLogon = DateTime.Now.AddHours(-1);
-            var mysjon = Newtonsoft.Json.JsonConvert.SerializeObject(testObject);
-            return mysjon;
+
+            return Newtonsoft.Json.JsonConvert.SerializeObject(testObject);
 
         }
 
