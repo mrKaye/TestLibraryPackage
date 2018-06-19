@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>TestLibrary</id>
-    <!--Version byttes ut med bygg nummer på TeamCity-->
+    <!--Version byttes ut med byggnummer på TeamCity-->
     <version>1.0.2</version>
     <authors>morber</authors>
     <owners>morber</owners>
