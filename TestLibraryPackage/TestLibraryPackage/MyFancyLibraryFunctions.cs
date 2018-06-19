@@ -34,7 +34,7 @@ namespace TestLibraryPackage
 
         public string ReturnChuckJoke()
         {
-            string html = string.Empty;
+
             string url = @"https://api.icndb.com/jokes/random/?limitTo=[nerdy]";
 
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
